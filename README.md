@@ -10,7 +10,7 @@ Internet connection
 
 ###Step 1: Download the Extension from GitHub
 
-Go to the Lurex AdBlocker GitHub repository https://github.com/Ahukko8/Lurex-AdBlocke
+Go to the Lurex AdBlocker GitHub repository https://github.com/Ahukko8/Lurex-AdBlocker
 Click the green "Code" button near the top right of the page.
 Select "Download ZIP" from the dropdown menu.
 Once downloaded, locate the ZIP file in your downloads folder.
