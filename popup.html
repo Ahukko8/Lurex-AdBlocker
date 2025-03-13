@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lurex AdBlocker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="icons/icon48.png" alt="Lurex AdBlocker">
+        <h1>Lurex AdBlocker</h1>
+      </div>
+      <div class="toggle-container">
+        <label class="switch">
+          <input type="checkbox" id="adblock-toggle" checked>
+          <span class="slider"></span>
+        </label>
+        <span id="status-text">Active</span>
+      </div>
+    </header>
+    
+    <div class="stats-container">
+      <div class="stat-box">
+        <div class="stat-value" id="blocked-count">0</div>
+        <div class="stat-label">Ads Blocked</div>
+      </div>
+      
+      <div class="stat-box">
+        <div class="stat-value" id="percent-blocked">0%</div>
+        <div class="stat-label">Page Cleaned</div>
+      </div>
+    </div>
+    
+    <div class="site-controls">
+      <div class="site-info">
+        <img src="icons/globe.svg" alt="Website" class="site-icon">
+        <div class="current-site" id="current-site">example.com</div>
+      </div>
+      
+      <button id="whitelist-toggle" class="btn">Whitelist Site</button>
+    </div>
+    
+    <div class="settings-panel">
+      <div class="settings-header">
+        <h2>Protection Settings</h2>
+      </div>
+      
+      <div class="settings-list">
+        <div class="setting-item">
+          <div class="setting-info">
+            <div class="setting-name">Element Blocking</div>
+            <div class="setting-desc">Hide ad elements on web pages</div>
+          </div>
+          <label class="switch small">
+            <input type="checkbox" id="cosmetic-toggle" checked>
+            <span class="slider small"></span>
+          </label>
+        </div>
+        
+        <div class="setting-item">
+          <div class="setting-info">
+            <div class="setting-name">Advanced Protection</div>
+            <div class="setting-desc">Block trackers and scripts</div>
+          </div>
+          <label class="switch small">
+            <input type="checkbox" id="advanced-toggle" checked>
+            <span class="slider small"></span>
+          </label>
+        </div>
+        
+        <div class="setting-item">
+          <div class="setting-info">
+            <div class="setting-name">Popup Blocking</div>
+            <div class="setting-desc">Auto-close ad popup windows</div>
+          </div>
+          <label class="switch small">
+            <input type="checkbox" id="popup-toggle" checked>
+            <span class="slider small"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <div class="update-info">
+        <div class="update-label">Filter lists:</div>
+        <div class="update-value" id="last-updated">Updated just now</div>
+      </div>
+      <button id="update-filters" class="btn btn-small">Update Now</button>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

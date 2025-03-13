@@ -1,0 +1,28 @@
+{
+  "filters": [
+    "doubleclick.net",
+    "googlesyndication.com",
+    "adserver",
+    "adservice",
+    "banner",
+    "advert",
+    "googleadservices.com",
+    "popads.net",
+    "popunder.net",
+    "adnxs.com",
+    "openx.net",
+    "rubiconproject.com",
+    "pubmatic.com",
+    "criteo.com",
+    "outbrain.com",
+    "taboola.com",
+    "revcontent.com",
+    "mgid.com",
+    "adblade.com",
+    ".*\\.ads$",
+    ".*\\.pop$",
+    ".*\\.ad$",
+    ".*\\.promo$",
+    ".*\\.click$"
+  ]
+}
