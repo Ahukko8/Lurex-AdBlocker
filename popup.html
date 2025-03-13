@@ -5,13 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lurex AdBlocker</title>
   <link rel="stylesheet" href="popup.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
     <header>
       <div class="logo">
         <img src="icons/icon48.png" alt="Lurex AdBlocker">
-        <h1>Lurex AdBlocker</h1>
+        <h1>Lurex</h1>
       </div>
       <div class="toggle-container">
         <label class="switch">
@@ -36,7 +39,9 @@
     
     <div class="site-controls">
       <div class="site-info">
-        <img src="icons/globe.svg" alt="Website" class="site-icon">
+        <div class="site-icon-wrapper">
+          <img src="icons/globe.svg" alt="Website" class="site-icon">
+        </div>
         <div class="current-site" id="current-site">example.com</div>
       </div>
       
